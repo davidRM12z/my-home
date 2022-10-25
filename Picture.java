@@ -64,6 +64,14 @@ public class Picture
         
         sun.slowMoveVertical(-150);
     }
+    
+    /**
+     * amanecer
+     */
+    public void amanecer(){
+        sun.slowMoveVertical(150);
+    }
+
 
     /**
      * Change this picture to black/white display
