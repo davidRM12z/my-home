@@ -66,9 +66,9 @@ public class Picture
     }
     
     /**
-     * amanecer
+     * aterdecer
      */
-    public void amanecer(){
+    public void atardecer(){
         sun.slowMoveVertical(150);
     }
 
