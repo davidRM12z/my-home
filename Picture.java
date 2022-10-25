@@ -70,6 +70,13 @@ public class Picture
      */
     public void atardecer(){
         sun.slowMoveVertical(150);
+        
+        Person persona= new Person();
+        persona.changeColor("black");
+        persona.makeVisible();
+        persona.moveVertical(15);
+        persona.moveHorizontal(-275);
+        persona.slowMoveHorizontal(150);
     }
 
 
